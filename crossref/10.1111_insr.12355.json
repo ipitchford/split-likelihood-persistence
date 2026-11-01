@@ -1,0 +1,300 @@
+{
+ "message": {
+  "DOI": "10.1111/insr.12355",
+  "ISSN": [
+   "0306-7734",
+   "1751-5823"
+  ],
+  "URL": "https://doi.org/10.1111/insr.12355",
+  "alternative-id": [
+   "10.1111/insr.12355"
+  ],
+  "archive": [
+   "Portico"
+  ],
+  "assertion": [
+   {
+    "group": {
+     "label": "Publication History",
+     "name": "publication_history"
+    },
+    "label": "Received",
+    "name": "received",
+    "order": 0,
+    "value": "2018-07-19"
+   },
+   {
+    "group": {
+     "label": "Publication History",
+     "name": "publication_history"
+    },
+    "label": "Accepted",
+    "name": "accepted",
+    "order": 1,
+    "value": "2019-09-29"
+   },
+   {
+    "group": {
+     "label": "Publication History",
+     "name": "publication_history"
+    },
+    "label": "Published",
+    "name": "published",
+    "order": 2,
+    "value": "2019-11-28"
+   }
+  ],
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Department of Economics and Statistics University of Udine Udine Italy"
+     }
+    ],
+    "family": "Pace",
+    "given": "Luigi",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9184-5444",
+    "affiliation": [
+     {
+      "name": "Department of Statistical Sciences University of Padova Padova Italy"
+     }
+    ],
+    "authenticated-orcid": false,
+    "family": "Salvan",
+    "given": "Alessandra",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "International Statistical Review"
+  ],
+  "content-domain": {
+   "crossmark-restriction": true,
+   "domain": [
+    "onlinelibrary.wiley.com"
+   ]
+  },
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     28
+    ]
+   ],
+   "date-time": "2019-11-28T11:46:16Z",
+   "timestamp": 1574941576000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     7,
+     27
+    ]
+   ],
+   "date-time": "2024-07-27T21:24:36Z",
+   "timestamp": 1722115476000
+  },
+  "funder": [
+   {
+    "DOI": "10.13039/501100003500",
+    "award": [
+     "BIRD185955"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "BIRD185955"
+      ]
+     }
+    ],
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/501100003500",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "UNIPDi"
+   },
+   {
+    "DOI": "10.13039/501100008252",
+    "award": [
+     "PRID2017_DIES004"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "PRID2017_DIES004"
+      ]
+     }
+    ],
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/501100008252",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "Università degli Studi di Udine"
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     29
+    ]
+   ],
+   "date-time": "2026-09-29T23:14:12Z",
+   "timestamp": 1790723652401,
+   "version": "4.1.0"
+  },
+  "is-referenced-by-count": 12,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0306-7734"
+   },
+   {
+    "type": "electronic",
+    "value": "1751-5823"
+   }
+  ],
+  "issue": "3",
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     28
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2020,
+      12
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "license": [
+   {
+    "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       11,
+       28
+      ]
+     ],
+     "date-time": "2019-11-28T00:00:00Z",
+     "timestamp": 1574899200000
+    }
+   }
+  ],
+  "link": [
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/insr.12355",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/insr.12355",
+    "content-type": "application/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/insr.12355",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "311",
+  "original-title": [],
+  "page": "599-615",
+  "prefix": "10.1111",
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     28
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     28
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2020,
+     12
+    ]
+   ]
+  },
+  "publisher": "Wiley",
+  "reference-count": 32,
+  "references-count": 32,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1111/insr.12355"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Int Statistical Rev"
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Likelihood, Replicability and Robbins' Confidence Sequences"
+  ],
+  "type": "journal-article",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "volume": "88"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

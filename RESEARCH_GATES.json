@@ -1,0 +1,196 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 1 November 2026 for release 0.1.0-candidate from the dated prior-art record (novelty_report.md), the round-one domain and devil's advocate reviews and the reference retrieval. It documents the scrutiny performed, not historical priority. No new search was run at release preparation.",
+ "contributionMap": [
+  {
+   "claim": "Refutation of the Pace-Salvan-Sartori asymptotic-persistence conjecture: zero asymptotic persistence in any model (Proposition 0).",
+   "unit": "statement",
+   "paperLocation": "Proposition 0, Section 2",
+   "searches": [
+    {
+     "date": "2026-11-01",
+     "corpus": "Semantic Scholar (relevance search; citations of Pace et al. 2023 and Pace and Salvan 2020), arXiv API (17 query families), OpenAlex, general web search; full-text greps over 20 related arXiv papers (novelty_report.md)",
+     "query": "\"universal inference\" AND sequential / anytime / \"optional stopping\"; \"split likelihood ratio\"; \"running MLE\"; \"e-process\" AND \"universal inference\"; asymptotic persistence split-naive"
+    },
+    {
+     "date": "2026-11-01",
+     "corpus": "internal reviewers' independent searches (domain and devil's advocate roles)",
+     "query": "group-sequential repeated significance testing; boundary-crossing confidence sequences; split LRT fixed-n theory"
+    },
+    {
+     "date": "2026-11-01",
+     "corpus": "api.crossref.org, arXiv API, Numdam",
+     "query": "registry records for every bibliography entry (crossref/, refs.bib)"
+    }
+   ],
+   "closestPriorWork": "Ramdas and Wang 2025 Section 7.7 (remark without proof that split LR e-variables are not e-processes) and Section 7.9 (time-mixture repair); Wasserman et al. 2020 Section 8 (running-MLE updating); Pace et al. 2023 (finite-horizon anti-conservativeness at nominal 80%)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Exact iterated-logarithm constant (sqrt5 - 1)/2 for the split statistic, its universality and sandwich form (Theorems 1-2).",
+   "unit": "statement",
+   "paperLocation": "Theorems 1-2, Sections 3-4",
+   "searches": [
+    {
+     "date": "2026-11-01",
+     "corpus": "Semantic Scholar (relevance search; citations of Pace et al. 2023 and Pace and Salvan 2020), arXiv API (17 query families), OpenAlex, general web search; full-text greps over 20 related arXiv papers (novelty_report.md)",
+     "query": "\"universal inference\" AND sequential / anytime / \"optional stopping\"; \"split likelihood ratio\"; \"running MLE\"; \"e-process\" AND \"universal inference\"; asymptotic persistence split-naive"
+    },
+    {
+     "date": "2026-11-01",
+     "corpus": "internal reviewers' independent searches (domain and devil's advocate roles)",
+     "query": "group-sequential repeated significance testing; boundary-crossing confidence sequences; split LRT fixed-n theory"
+    }
+   ],
+   "closestPriorWork": "Hartman-Wintner and Strassen LIL; Berkes-Philipp and Kuelbs vector LIL (classical tools)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Split-fraction constant c(r) and the fixed-K aggregation classification (Theorems 3-4).",
+   "unit": "statement",
+   "paperLocation": "Theorems 3-4, Section 5",
+   "searches": [
+    {
+     "date": "2026-11-01",
+     "corpus": "Semantic Scholar (relevance search; citations of Pace et al. 2023 and Pace and Salvan 2020), arXiv API (17 query families), OpenAlex, general web search; full-text greps over 20 related arXiv papers (novelty_report.md)",
+     "query": "\"universal inference\" AND sequential / anytime / \"optional stopping\"; \"split likelihood ratio\"; \"running MLE\"; \"e-process\" AND \"universal inference\"; asymptotic persistence split-naive"
+    }
+   ],
+   "closestPriorWork": "Vovk and Wang 2021 (symmetric e-merging functions); Strieder and Drton 2022 (fixed-n split ratio)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Threshold repair through any valid scalar Gaussian boundary and its sharpness kappa > 3 (Theorems 5-6); model-free checkpoint repair (Proposition 5A).",
+   "unit": "method",
+   "paperLocation": "Theorems 5-6, Proposition 5A, Section 6",
+   "searches": [
+    {
+     "date": "2026-11-01",
+     "corpus": "Semantic Scholar (relevance search; citations of Pace et al. 2023 and Pace and Salvan 2020), arXiv API (17 query families), OpenAlex, general web search; full-text greps over 20 related arXiv papers (novelty_report.md)",
+     "query": "\"universal inference\" AND sequential / anytime / \"optional stopping\"; \"split likelihood ratio\"; \"running MLE\"; \"e-process\" AND \"universal inference\"; asymptotic persistence split-naive"
+    },
+    {
+     "date": "2026-11-01",
+     "corpus": "internal reviewers' independent searches (domain and devil's advocate roles)",
+     "query": "group-sequential repeated significance testing; boundary-crossing confidence sequences; split LRT fixed-n theory"
+    }
+   ],
+   "closestPriorWork": "Robbins 1970 and Darling-Robbins 1967 (normal mixtures, second-order term); Howard et al. 2021 (stitching); Kolmogorov-Erdős-Feller test; Ramdas-Wang 2025 Section 7.9 (time mixture, which dominates Proposition 5A)",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Finite-horizon severity through an exact OU representation: failure exponents, crossing horizons, calibrated thresholds, finite looks (Proposition 7, Section 7).",
+   "unit": "method",
+   "paperLocation": "Proposition 7, Section 7",
+   "searches": [
+    {
+     "date": "2026-11-01",
+     "corpus": "Semantic Scholar (relevance search; citations of Pace et al. 2023 and Pace and Salvan 2020), arXiv API (17 query families), OpenAlex, general web search; full-text greps over 20 related arXiv papers (novelty_report.md)",
+     "query": "\"universal inference\" AND sequential / anytime / \"optional stopping\"; \"split likelihood ratio\"; \"running MLE\"; \"e-process\" AND \"universal inference\"; asymptotic persistence split-naive"
+    },
+    {
+     "date": "2026-11-01",
+     "corpus": "internal reviewers' independent searches (domain and devil's advocate roles)",
+     "query": "group-sequential repeated significance testing; boundary-crossing confidence sequences; split LRT fixed-n theory"
+    }
+   ],
+   "closestPriorWork": "Armitage, McPherson and Rowe 1969; Pocock 1977 (group-sequential error inflation); Robbins and Siegmund 1970 (boundary crossing)",
+   "verdict": "new-in-bounded-search"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Pace, Salvan and Sartori, Canadian Journal of Statistics 51(3) (2023) 877-896, doi:10.1002/cjs.11749",
+   "usedFor": "Exact statement of the conjecture, definitions, sampling scheme and Tables 2, 3 and 5",
+   "readWhat": "Publisher open-access full text (CC BY 4.0), Early View version of 9 December 2022",
+   "date": "2026-11-01",
+   "evidenceLocator": "novelty_report.md; manuscript Sections 1.1, 7.3, 7.5"
+  },
+  {
+   "citation": "Ramdas and Wang, Hypothesis testing with e-values, arXiv:2410.23614 v6 (Foundations and Trends in Statistics, 2025, doi:10.1561/3600000002)",
+   "usedFor": "Section 7.7 remark and Section 7.9 time-mixture construction",
+   "readWhat": "Sections 7.7 and 7.9",
+   "date": "2026-11-01",
+   "evidenceLocator": "novelty_report.md; manuscript Sections 1.2, 6, 9"
+  },
+  {
+   "citation": "Howard, Ramdas, McAuliffe and Sekhon, Annals of Statistics 49(2) (2021), doi:10.1214/20-aos1991",
+   "usedFor": "Stitching boundary (Theorem 1) used in Theorems 5-6",
+   "readWhat": "Stitching theorem and boundary formulas",
+   "date": "2026-11-01",
+   "evidenceLocator": "manuscript Section 6"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Priority holds only within a bounded search.",
+   "closingQuestion": "Has the refutation or any of the constants been published elsewhere?",
+   "triedOrSearched": "Dated searches of 1 November 2026 across Semantic Scholar, arXiv, OpenAlex and web indexes, with citer checks of Pace et al. and full-text greps.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Exhaustive search out of scope; disclosed in the manuscript and README."
+  },
+  {
+   "limitation": "Continuum (OU) results are numerical with empirical error estimates.",
+   "closingQuestion": "Could the exponents and thresholds be certified with interval methods?",
+   "triedOrSearched": "Richardson extrapolation, finer-mesh and time-step checks, direct verifications, agreement with an independent reviewer solver.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Not load-bearing for any theorem; labelled numerical with error estimates."
+  },
+  {
+   "limitation": "Poisson discrepancy with Pace et al. Table 5.",
+   "closingQuestion": "Why do the published Poisson figures differ from exact simulation?",
+   "triedOrSearched": "Simulated both split-naive and mixture rows; the Gaussian mixture row reproduces but the Poisson mixture row does not, so the discrepancy also affects a non-split method.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Depends on the original authors' code; conclusions do not depend on it."
+  },
+  {
+   "limitation": "Rate constants for irregular models; growing-K and re-randomised cross-fitting; plug-in sandwich repair.",
+   "closingQuestion": "Do analogous exact constants exist outside the regular fixed-K setting?",
+   "triedOrSearched": "Proposition 0 and the checkpoint repair cover irregular models qualitatively.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "New research; stated in Section 9."
+  },
+  {
+   "limitation": "Universal constant needed the information identity (round-one objection).",
+   "closingQuestion": "Do (R1)-(R3) imply J = H?",
+   "triedOrSearched": "Explicit mixture counterexample; (R4) added and sandwich constant stated generally.",
+   "estimatedCost": "1 hour",
+   "decision": "CLOSED",
+   "cheap": true
+  },
+  {
+   "limitation": "Calibrated thresholds at epsilon = 0.01 were not converged (round-one objection).",
+   "closingQuestion": "Are Table 3 values accurate?",
+   "triedOrSearched": "Richardson extrapolation in h, root-finding in c, finer-mesh and time-step checks, two direct verifications.",
+   "estimatedCost": "2 hours",
+   "decision": "CLOSED",
+   "cheap": true
+  }
+ ],
+ "extensionScout": {
+  "by": "Internal AI-assisted reviewers and the lead, 1 November 2026",
+  "date": "2026-11-01",
+  "proposals": [
+   "Give a model-free refutation",
+   "Report severity by level",
+   "Treat finitely many looks",
+   "Give a repair valid beyond the Gaussian case",
+   "Diagnose the Poisson discrepancy"
+  ],
+  "actions": [
+   "Proposition 0",
+   "At-a-glance table, crossing horizons and Section 7.2",
+   "Table 4 (Section 7.4)",
+   "Proposition 5A",
+   "Section 7.5 mixture-row controls"
+  ]
+ }
+}

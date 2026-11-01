@@ -1,0 +1,34 @@
+PASS stitching weights positive, telescoping
+PASS stitched boundary remainder bounded (O(1)) over n = 1e16..1e128 | [4.786 4.511 4.351 4.233 4.147 4.081]
+PASS top eigenvalue of A is (sqrt5-1)/4
+PASS pathwise Q_n <= l1 W_n^2/n
+PASS NEGATIVE CONTROL detects: wrong direction (first coordinate) does not dominate Q
+PASS checkpoint weights telescope to <= 1
+0.05 {'naive': 0.042, 'rep-mix': 0.017, 'rep-stitch': 0.00025, 'run-mle': 0.02575, 'mix-pool': 0.0255, 'stitch-pool': 0.00025, 'checkpoint': 0.0}
+  n= 10 {'naive': 1.65922, 'rep-mix': 1.62412, 'rep-stitch': 2.33926, 'run-mle': 1.44162, 'mix-pool': 1.37752, 'stitch-pool': 2.05023, 'checkpoint': 2.62177}
+  n= 100 {'naive': 0.52517, 'rep-mix': 0.54862, 'rep-stitch': 0.75538, 'run-mle': 0.49529, 'mix-pool': 0.47647, 'stitch-pool': 0.6616, 'checkpoint': 0.97257}
+  n= 1000 {'naive': 0.16615, 'rep-mix': 0.18858, 'rep-stitch': 0.24272, 'run-mle': 0.17047, 'mix-pool': 0.16492, 'stitch-pool': 0.21246, 'checkpoint': 0.35387}
+  n= 10000 {'naive': 0.05248, 'rep-mix': 0.06416, 'rep-stitch': 0.07793, 'run-mle': 0.05801, 'mix-pool': 0.05638, 'stitch-pool': 0.06824, 'checkpoint': 0.09096}
+  n= 100000 {'naive': 0.01657, 'rep-mix': 0.02163, 'rep-stitch': 0.02486, 'run-mle': 0.01956, 'mix-pool': 0.01908, 'stitch-pool': 0.02178, 'checkpoint': 0.03264}
+0.2 {'naive': 0.336, 'rep-mix': 0.07975, 'rep-stitch': 0.0005, 'run-mle': 0.1125, 'mix-pool': 0.11975, 'stitch-pool': 0.00125, 'checkpoint': 0.00025}
+  n= 10 {'naive': 1.28217, 'rep-mix': 1.37252, 'rep-stitch': 2.1212, 'run-mle': 1.22253, 'mix-pool': 1.14687, 'stitch-pool': 1.85376, 'checkpoint': 2.34252}
+  n= 100 {'naive': 0.40608, 'rep-mix': 0.48141, 'rep-stitch': 0.69194, 'run-mle': 0.43541, 'mix-pool': 0.41388, 'stitch-pool': 0.60354, 'checkpoint': 0.87898}
+  n= 1000 {'naive': 0.12851, 'rep-mix': 0.16942, 'rep-stitch': 0.22357, 'run-mle': 0.15334, 'mix-pool': 0.14714, 'stitch-pool': 0.19484, 'checkpoint': 0.32181}
+  n= 10000 {'naive': 0.04056, 'rep-mix': 0.05857, 'rep-stitch': 0.07211, 'run-mle': 0.05302, 'mix-pool': 0.05123, 'stitch-pool': 0.06287, 'checkpoint': 0.08319}
+  n= 100000 {'naive': 0.01279, 'rep-mix': 0.01998, 'rep-stitch': 0.02305, 'run-mle': 0.01809, 'mix-pool': 0.01756, 'stitch-pool': 0.02011, 'checkpoint': 0.02993}
+PASS alpha=0.05: rep-mix time-uniform non-coverage <= alpha (MC) | 0.0170
+PASS alpha=0.05: rep-stitch time-uniform non-coverage <= alpha (MC) | 0.0003
+PASS alpha=0.05: run-mle time-uniform non-coverage <= alpha (MC) | 0.0257
+PASS alpha=0.05: mix-pool time-uniform non-coverage <= alpha (MC) | 0.0255
+PASS alpha=0.05: stitch-pool time-uniform non-coverage <= alpha (MC) | 0.0003
+PASS alpha=0.05: checkpoint time-uniform non-coverage <= alpha (MC) | 0.0000
+PASS alpha=0.2: rep-mix time-uniform non-coverage <= alpha (MC) | 0.0798
+PASS alpha=0.2: rep-stitch time-uniform non-coverage <= alpha (MC) | 0.0005
+PASS alpha=0.2: run-mle time-uniform non-coverage <= alpha (MC) | 0.1125
+PASS alpha=0.2: mix-pool time-uniform non-coverage <= alpha (MC) | 0.1197
+PASS alpha=0.2: stitch-pool time-uniform non-coverage <= alpha (MC) | 0.0013
+PASS alpha=0.2: checkpoint time-uniform non-coverage <= alpha (MC) | 0.0003
+PASS negative control alpha=0.2: split-naive exceeds alpha over 1..100000 | 0.3360
+PASS asymptotic ratio sqrt(sqrt5-1) ~ 1.112
+wrote results/repair_efficiency.json sha256 1448b72159793cc4ac7d2f5c8b89adbf4b5cff2ffdb97329d98d4ab2174adac0
+ALL CHECKS PASSED

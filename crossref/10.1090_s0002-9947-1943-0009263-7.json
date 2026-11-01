@@ -1,0 +1,162 @@
+{
+ "message": {
+  "DOI": "10.1090/s0002-9947-1943-0009263-7",
+  "ISSN": [
+   "1088-6850",
+   "0002-9947"
+  ],
+  "URL": "https://doi.org/10.1090/s0002-9947-1943-0009263-7",
+  "aliases": [
+   "10.2307/1990253"
+  ],
+  "alternative-id": [
+   "S0002-9947-1943-0009263-7"
+  ],
+  "archive": [
+   "CLOCKSS",
+   "Portico"
+  ],
+  "author": [
+   {
+    "affiliation": [],
+    "family": "Feller",
+    "given": "W.",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   }
+  ],
+  "container-title": [
+   "Transactions of the American Mathematical Society"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     30
+    ]
+   ],
+   "date-time": "2010-06-30T16:14:53Z",
+   "timestamp": 1277914493000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     5
+    ]
+   ],
+   "date-time": "2026-04-05T15:51:17Z",
+   "timestamp": 1775404277000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     22
+    ]
+   ],
+   "date-time": "2026-09-22T03:13:49Z",
+   "timestamp": 1790046829582,
+   "version": "4.0.1"
+  },
+  "is-referenced-by-count": 90,
+  "issn-type": [
+   {
+    "type": "electronic",
+    "value": "1088-6850"
+   },
+   {
+    "type": "print",
+    "value": "0002-9947"
+   }
+  ],
+  "issue": "3",
+  "issued": {
+   "date-parts": [
+    [
+     1943
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      1943
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://www.ams.org/tran/1943-054-03/S0002-9947-1943-0009263-7/S0002-9947-1943-0009263-7.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   },
+   {
+    "URL": "https://www.ams.org/tran/1943-054-03/S0002-9947-1943-0009263-7/S0002-9947-1943-0009263-7.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "14",
+  "original-title": [],
+  "page": "373-402",
+  "prefix": "10.1090",
+  "published": {
+   "date-parts": [
+    [
+     1943
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     1943
+    ]
+   ]
+  },
+  "publisher": "American Mathematical Society (AMS)",
+  "reference-count": 17,
+  "references-count": 17,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://www.ams.org/tran/1943-054-03/S0002-9947-1943-0009263-7/"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Trans. Amer. Math. Soc."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "The general form of the so-called law of the iterated logarithm"
+  ],
+  "type": "journal-article",
+  "volume": "54"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

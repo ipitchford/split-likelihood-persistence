@@ -1,0 +1,29 @@
+gauss table2 [0.234635, 0.08894, 0.03245, 0.002855] [0.07577, 0.020335, 0.005395, 0.000255] 156s
+gauss table3 [0.21541, 0.07953, 0.02863, 0.00267] [0.05673, 0.01383, 0.00343, 0.00012] 312s
+poisson [0.19162, 0.07097, 0.02532, 0.00231] [0.18566, 0.06924, 0.02472, 0.00225] 399s
+PASS Table 2 uncoverage eps=0.2: ours 23.46% vs published 23.66% | z=0.45
+PASS Table 2 uncoverage eps=0.1: ours 8.89% vs published 9.15% | z=0.87
+PASS Table 2 uncoverage eps=0.05: ours 3.25% vs published 3.35% | z=0.57
+PASS Table 2 uncoverage eps=0.01: ours 0.29% vs published 0.37% | z=1.37
+PASS Table 2 incompatibility eps=0.2: ours 7.58% vs published 7.82% | z=0.88
+PASS Table 2 incompatibility eps=0.1: ours 2.03% vs published 2.09% | z=0.39
+PASS Table 2 incompatibility eps=0.05: ours 0.54% vs published 0.54% | z=0.01
+PASS Table 2 incompatibility eps=0.01: ours 0.03% vs published 0.03% | z=0.25
+PASS Table 3 uncoverage eps=0.2: ours 21.54% vs published 21.67% | z=0.30
+PASS Table 3 uncoverage eps=0.1: ours 7.95% vs published 8.30% | z=1.20
+PASS Table 3 uncoverage eps=0.05: ours 2.86% vs published 3.36% | z=2.65
+PASS Table 3 uncoverage eps=0.01: ours 0.27% vs published 0.28% | z=0.24
+PASS Table 3 incompatibility eps=0.2: ours 5.67% vs published 5.77% | z=0.40
+PASS Table 3 incompatibility eps=0.1: ours 1.38% vs published 1.50% | z=0.92
+PASS Table 3 incompatibility eps=0.05: ours 0.34% vs published 0.41% | z=1.01
+PASS Table 3 incompatibility eps=0.01: ours 0.01% vs published 0.02% | z=0.55
+Poisson vs published Table 5, max z: [np.float64(33.521817427087235), np.float64(34.37254900969741)]
+PASS Poisson (n 100..10000) close to Gaussian ratio-100 value, eps=0.2 | 19.16% vs 18.92%
+PASS Poisson (n 100..10000) close to Gaussian ratio-100 value, eps=0.1 | 7.10% vs 6.98%
+PASS Poisson (n 100..10000) close to Gaussian ratio-100 value, eps=0.05 | 2.53% vs 2.52%
+PASS Poisson (n 100..10000) close to Gaussian ratio-100 value, eps=0.01 | 0.23% vs 0.22%
+PASS uncoverage nondecreasing in horizon
+PASS eps=0.20 split-naive is anti-conservative at Pace's horizon
+PASS negative control: fixed-n non-coverage <= eps | [np.float64(0.0114925), np.float64(0.003175), np.float64(0.00088), np.float64(6.75e-05)]
+wrote results/finite_horizon_mc.json sha256 44d0547aeef73ff93b19653c57c016fc803cef824289cb3fe6aa1c1be0fe7acc
+ALL CHECKS PASSED

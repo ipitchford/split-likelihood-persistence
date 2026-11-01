@@ -1,0 +1,174 @@
+{
+ "message": {
+  "DOI": "10.1090/s0002-9947-1955-0076206-8",
+  "ISSN": [
+   "1088-6850",
+   "0002-9947"
+  ],
+  "URL": "https://doi.org/10.1090/s0002-9947-1955-0076206-8",
+  "aliases": [
+   "10.2307/1992999"
+  ],
+  "alternative-id": [
+   "S0002-9947-1955-0076206-8"
+  ],
+  "archive": [
+   "CLOCKSS",
+   "Portico"
+  ],
+  "author": [
+   {
+    "affiliation": [],
+    "family": "Hewitt",
+    "given": "Edwin",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [],
+    "family": "Savage",
+    "given": "Leonard J.",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Transactions of the American Mathematical Society"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     30
+    ]
+   ],
+   "date-time": "2010-06-30T16:17:42Z",
+   "timestamp": 1277914662000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     5
+    ]
+   ],
+   "date-time": "2026-04-05T16:12:28Z",
+   "timestamp": 1775405548000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     27
+    ]
+   ],
+   "date-time": "2026-10-27T20:30:41Z",
+   "timestamp": 1793133041255,
+   "version": "4.5.0"
+  },
+  "is-referenced-by-count": 464,
+  "issn-type": [
+   {
+    "type": "electronic",
+    "value": "1088-6850"
+   },
+   {
+    "type": "print",
+    "value": "0002-9947"
+   }
+  ],
+  "issue": "2",
+  "issued": {
+   "date-parts": [
+    [
+     1955
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "2",
+   "published-print": {
+    "date-parts": [
+     [
+      1955
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://www.ams.org/tran/1955-080-02/S0002-9947-1955-0076206-8/S0002-9947-1955-0076206-8.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   },
+   {
+    "URL": "https://www.ams.org/tran/1955-080-02/S0002-9947-1955-0076206-8/S0002-9947-1955-0076206-8.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "14",
+  "original-title": [],
+  "page": "470-501",
+  "prefix": "10.1090",
+  "published": {
+   "date-parts": [
+    [
+     1955
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     1955
+    ]
+   ]
+  },
+  "publisher": "American Mathematical Society (AMS)",
+  "reference-count": 28,
+  "references-count": 28,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://www.ams.org/tran/1955-080-02/S0002-9947-1955-0076206-8/"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Trans. Amer. Math. Soc."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Symmetric measures on Cartesian products"
+  ],
+  "type": "journal-article",
+  "volume": "80"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

@@ -1,0 +1,153 @@
+{
+ "message": {
+  "DOI": "10.1214/aos/1176343406",
+  "ISSN": [
+   "0090-5364",
+   "2168-8966"
+  ],
+  "URL": "https://doi.org/10.1214/aos/1176343406",
+  "author": [
+   {
+    "affiliation": [],
+    "family": "Lai",
+    "given": "Tze Leung",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   }
+  ],
+  "container-title": [
+   "The Annals of Statistics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     17
+    ]
+   ],
+   "date-time": "2007-12-17T15:11:03Z",
+   "timestamp": 1197904263000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     16
+    ]
+   ],
+   "date-time": "2026-10-16T20:20:12Z",
+   "timestamp": 1792182012000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     16
+    ]
+   ],
+   "date-time": "2026-10-16T20:49:00Z",
+   "timestamp": 1792183740319,
+   "version": "4.4.0"
+  },
+  "is-referenced-by-count": 39,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0090-5364"
+   },
+   {
+    "type": "electronic",
+    "value": "2168-8966"
+   }
+  ],
+  "issue": "2",
+  "issued": {
+   "date-parts": [
+    [
+     1976,
+     3,
+     1
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "2",
+   "published-online": {
+    "date-parts": [
+     [
+      1976,
+      3,
+      1
+     ]
+    ]
+   }
+  },
+  "link": [
+   {
+    "URL": "http://projecteuclid.org/download/pdf_1/euclid.aos/1176343406",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "108",
+  "original-title": [],
+  "page": "265-280",
+  "prefix": "10.1214",
+  "published": {
+   "date-parts": [
+    [
+     1976,
+     3,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     1976,
+     3,
+     1
+    ]
+   ]
+  },
+  "publisher": "Institute of Mathematical Statistics",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-4/issue-2/On-Confidence-Sequences/10.1214/aos/1176343406.full"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Ann. Statist."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "On Confidence Sequences"
+  ],
+  "type": "journal-article",
+  "volume": "4"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

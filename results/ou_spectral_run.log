@@ -1,0 +1,99 @@
+PASS control: untruncated OU operator has ground eigenvalue 0 | -1.56e-04
+PASS eps=0.2: eigenvalue converges under refinement | mus=[0.041623542727113896, 0.04198291735677716, 0.042069904641477265], ratio=0.242
+PASS eps=0.2: P(T=0) matches stationary mass of D_c | 0.98869 vs 0.98871
+PASS eps=0.2: stationary mass >= 1-eps (Markov) | 0.98871
+PASS eps=0.2: survival nonincreasing
+PASS eps=0.2: survival decay rate equals eigenvalue (3% rel) | 0.042099 vs 0.042099
+0.2 0.04209890040304397 {'2': 0.05252103238699113, '5': 0.09004069100595724, '10': 0.11650043860231696, '20': 0.14199899836547536, '50': 0.1744981830484843, '100': 0.19824510911561555, '200': 0.2213048700368302, '400': 0.24370010318405255, '1000': 0.27231903040322425, '10000': 0.3395467570299272, '1000000': 0.4559432955009619}
+PASS eps=0.1: eigenvalue converges under refinement | mus=[0.01455248462033871, 0.014861821607909326, 0.014937927211573375], ratio=0.246
+PASS eps=0.1: P(T=0) matches stationary mass of D_c | 0.99678 vs 0.99678
+PASS eps=0.1: stationary mass >= 1-eps (Markov) | 0.99678
+PASS eps=0.1: survival nonincreasing
+PASS eps=0.1: survival decay rate equals eigenvalue (3% rel) | 0.014963 vs 0.014963
+0.1 0.014963295746128058 {'2': 0.017562269990252233, '5': 0.03153852887206032, '10': 0.04166275808084419, '20': 0.05160142332264561, '50': 0.06453872696504603, '100': 0.07419662154035589, '200': 0.08375142867941188, '400': 0.09320630604222246, '1000': 0.10555468079482255, '10000': 0.13584746521353863, '1000000': 0.19338972352915296}
+PASS eps=0.05: eigenvalue converges under refinement | mus=[0.004995000868907883, 0.005292534962078118, 0.00536640469440775], ratio=0.248
+PASS eps=0.05: P(T=0) matches stationary mass of D_c | 0.99906 vs 0.99906
+PASS eps=0.05: stationary mass >= 1-eps (Markov) | 0.99906
+PASS eps=0.05: survival nonincreasing
+PASS eps=0.05: survival decay rate equals eigenvalue (3% rel) | 0.005391 vs 0.005391
+0.05 0.005391027938517627 {'2': 0.005903510637499831, '5': 0.010974486119156524, '10': 0.0147043715444094, '20': 0.018396716915391353, '50': 0.023242560569849857, '100': 0.026888216780779683, '200': 0.030518853714870176, '400': 0.03413532576091105, '1000': 0.038894958861291795, '10000': 0.0507518629187691, '1000000': 0.07402846196494506}
+PASS eps=0.01: eigenvalue converges under refinement | mus=[9.045302651366364e-05, 0.0003884697441350376, 0.00046280103825248515], ratio=0.249
+PASS eps=0.01: P(T=0) matches stationary mass of D_c | 0.99994 vs 0.99994
+PASS eps=0.01: stationary mass >= 1-eps (Markov) | 0.99994
+PASS eps=0.01: survival nonincreasing
+PASS eps=0.01: survival decay rate equals eigenvalue (3% rel) | 0.000488 vs 0.000488
+0.01 0.00048757813629163435 {'2': 0.0004707928775790071, '5': 0.0009239630904317453, '10': 0.0012629941744870532, '20': 0.0016010956908752982, '50': 0.002047392351643529, '100': 0.0023847215790491205, '200': 0.0027218824858100676, '400': 0.003058903883655373, '1000': 0.00350423028084057, '10000': 0.004622412194337011, '1000000': 0.0068550361907727675}
+PASS eps=0.01: Richardson pi(1e6) agrees with finer-mesh Richardson (1% rel) | 0.006855 vs 0.006854
+PASS time step dt=0.01 converged (0.5% rel) | 0.005495 vs 0.005495
+PASS eps=0.2, R=10: uncoverage decreasing in c
+PASS eps=0.2, R=10: threshold bracketed
+PASS eps=0.2, R=100: uncoverage decreasing in c
+PASS eps=0.2, R=100: threshold bracketed
+PASS eps=0.2, R=400: uncoverage decreasing in c
+PASS eps=0.2, R=400: threshold bracketed
+PASS eps=0.2, R=10000: uncoverage decreasing in c
+PASS eps=0.2, R=10000: threshold bracketed
+PASS eps=0.2, R=1000000: uncoverage decreasing in c
+PASS eps=0.2, R=1000000: threshold bracketed
+calibrated 0.2 {'10': 1.2405810654196894, '100': 1.6030755146710964, '400': 1.755816286596157, '10000': 2.0186347221705816, '1000000': 2.277298149163074}
+PASS eps=0.2: calibrated threshold grows with horizon
+PASS eps=0.1, R=10: uncoverage decreasing in c
+PASS eps=0.1, R=10: threshold bracketed
+PASS eps=0.1, R=100: uncoverage decreasing in c
+PASS eps=0.1, R=100: threshold bracketed
+PASS eps=0.1, R=400: uncoverage decreasing in c
+PASS eps=0.1, R=400: threshold bracketed
+PASS eps=0.1, R=10000: uncoverage decreasing in c
+PASS eps=0.1, R=10000: threshold bracketed
+PASS eps=0.1, R=1000000: uncoverage decreasing in c
+PASS eps=0.1, R=1000000: threshold bracketed
+calibrated 0.1 {'10': 1.7130596521573482, '100': 2.0951022570605344, '400': 2.2531295118001253, '10000': 2.5218858413068808, '1000000': 2.783527234908733}
+PASS eps=0.1: calibrated threshold grows with horizon
+PASS eps=0.05, R=10: uncoverage decreasing in c
+PASS eps=0.05, R=10: threshold bracketed
+PASS eps=0.05, R=100: uncoverage decreasing in c
+PASS eps=0.05, R=100: threshold bracketed
+PASS eps=0.05, R=400: uncoverage decreasing in c
+PASS eps=0.05, R=400: threshold bracketed
+PASS eps=0.05, R=10000: uncoverage decreasing in c
+PASS eps=0.05, R=10000: threshold bracketed
+PASS eps=0.05, R=1000000: uncoverage decreasing in c
+PASS eps=0.05, R=1000000: threshold bracketed
+calibrated 0.05 {'10': 2.180313820486829, '100': 2.5740956705229543, '400': 2.734785864132505, '10000': 3.006017505454839, '1000000': 3.268247520991394}
+PASS eps=0.05: calibrated threshold grows with horizon
+PASS eps=0.01, R=10: uncoverage decreasing in c
+PASS eps=0.01, R=10: threshold bracketed
+PASS eps=0.01, R=100: uncoverage decreasing in c
+PASS eps=0.01, R=100: threshold bracketed
+PASS eps=0.01, R=400: uncoverage decreasing in c
+PASS eps=0.01, R=400: threshold bracketed
+PASS eps=0.01, R=10000: uncoverage decreasing in c
+PASS eps=0.01, R=10000: threshold bracketed
+PASS eps=0.01, R=1000000: uncoverage decreasing in c
+PASS eps=0.01, R=1000000: threshold bracketed
+calibrated 0.01 {'10': 3.25049865813225, '100': 3.658529776015825, '400': 3.821537521621848, '10000': 4.093799214806282, '1000000': 4.354764661099221}
+PASS eps=0.01: calibrated threshold grows with horizon
+PASS direct check: uncoverage at c*(0.01,1000000) equals eps (0.5% rel) | 0.010000
+PASS direct check: uncoverage at c*(0.2,100) equals eps (0.5% rel) | 0.199996
+PASS eps=0.2, R=10: Table 1 and calibration agree on conservativeness
+PASS eps=0.2, R=100: Table 1 and calibration agree on conservativeness
+PASS eps=0.2, R=400: Table 1 and calibration agree on conservativeness
+PASS eps=0.2, R=10000: Table 1 and calibration agree on conservativeness
+PASS eps=0.2, R=1000000: Table 1 and calibration agree on conservativeness
+PASS eps=0.1, R=10: Table 1 and calibration agree on conservativeness
+PASS eps=0.1, R=100: Table 1 and calibration agree on conservativeness
+PASS eps=0.1, R=400: Table 1 and calibration agree on conservativeness
+PASS eps=0.1, R=10000: Table 1 and calibration agree on conservativeness
+PASS eps=0.1, R=1000000: Table 1 and calibration agree on conservativeness
+PASS eps=0.05, R=10: Table 1 and calibration agree on conservativeness
+PASS eps=0.05, R=100: Table 1 and calibration agree on conservativeness
+PASS eps=0.05, R=400: Table 1 and calibration agree on conservativeness
+PASS eps=0.05, R=10000: Table 1 and calibration agree on conservativeness
+PASS eps=0.05, R=1000000: Table 1 and calibration agree on conservativeness
+PASS eps=0.01, R=10: Table 1 and calibration agree on conservativeness
+PASS eps=0.01, R=100: Table 1 and calibration agree on conservativeness
+PASS eps=0.01, R=400: Table 1 and calibration agree on conservativeness
+PASS eps=0.01, R=10000: Table 1 and calibration agree on conservativeness
+PASS eps=0.01, R=1000000: Table 1 and calibration agree on conservativeness
+wrote results/ou_spectral.json sha256 d2b681b3b20fcab7ece244ebcb89fd4523ea0d38c64fe9295f6dc7af0b127037
+ALL CHECKS PASSED

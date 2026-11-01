@@ -1,0 +1,136 @@
+{
+ "message": {
+  "DOI": "10.2307/1968801",
+  "ISSN": [
+   "0003-486X"
+  ],
+  "URL": "https://doi.org/10.2307/1968801",
+  "author": [
+   {
+    "affiliation": [],
+    "family": "Erdos",
+    "given": "Paul",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   }
+  ],
+  "container-title": [
+   "The Annals of Mathematics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     4,
+     24
+    ]
+   ],
+   "date-time": "2006-04-24T06:00:03Z",
+   "timestamp": 1145858403000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     4,
+     17
+    ]
+   ],
+   "date-time": "2018-04-17T19:59:04Z",
+   "timestamp": 1523995144000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     21
+    ]
+   ],
+   "date-time": "2026-08-21T12:07:29Z",
+   "timestamp": 1787314049165,
+   "version": "build-2736575974"
+  },
+  "is-referenced-by-count": 58,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0003-486X"
+   }
+  ],
+  "issue": "3",
+  "issued": {
+   "date-parts": [
+    [
+     1942,
+     7
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      1942,
+      7
+     ]
+    ]
+   }
+  },
+  "member": "1121",
+  "original-title": [],
+  "page": "419",
+  "prefix": "10.2307",
+  "published": {
+   "date-parts": [
+    [
+     1942,
+     7
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     1942,
+     7
+    ]
+   ]
+  },
+  "publisher": "JSTOR",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://www.jstor.org/stable/1968801?origin=crossref"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "The Annals of Mathematics"
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "On the Law of the Iterated Logarithm"
+  ],
+  "type": "journal-article",
+  "volume": "43"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

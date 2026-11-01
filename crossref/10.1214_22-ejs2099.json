@@ -1,0 +1,165 @@
+{
+ "message": {
+  "DOI": "10.1214/22-ejs2099",
+  "ISSN": [
+   "1935-7524",
+   "1935-7524"
+  ],
+  "URL": "https://doi.org/10.1214/22-ejs2099",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Technical University of Munich; TUM School of Computation, Information and Technology, Munich Center for Machine Learning (MCML), Munich Data Science Institute (MDSI)"
+     }
+    ],
+    "family": "Strieder",
+    "given": "David",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Technical University of Munich; TUM School of Computation, Information and Technology, Munich Center for Machine Learning (MCML), Munich Data Science Institute (MDSI)"
+     }
+    ],
+    "family": "Drton",
+    "given": "Mathias",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Electronic Journal of Statistics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     29
+    ]
+   ],
+   "date-time": "2022-12-29T06:22:41Z",
+   "timestamp": 1672294961000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T20:01:23Z",
+   "timestamp": 1791403283000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T20:51:40Z",
+   "timestamp": 1791406300819,
+   "version": "4.3.3"
+  },
+  "is-referenced-by-count": 10,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "1935-7524"
+   },
+   {
+    "type": "electronic",
+    "value": "1935-7524"
+   }
+  ],
+  "issue": "2",
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     1
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "2",
+   "published-online": {
+    "date-parts": [
+     [
+      2022,
+      1,
+      1
+     ]
+    ]
+   }
+  },
+  "member": "108",
+  "original-title": [],
+  "page": "6631-6650",
+  "prefix": "10.1214",
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     1
+    ]
+   ]
+  },
+  "publisher": "Institute of Mathematical Statistics",
+  "reference-count": 8,
+  "references-count": 8,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-16/issue-2/On-the-choice-of-the-splitting-ratio-for-the-split/10.1214/22-EJS2099.full"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Electron. J. Statist."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "On the choice of the splitting ratio for the split likelihood ratio test"
+  ],
+  "type": "journal-article",
+  "volume": "16"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

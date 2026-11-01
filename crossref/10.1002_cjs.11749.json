@@ -1,0 +1,294 @@
+{
+ "message": {
+  "DOI": "10.1002/cjs.11749",
+  "ISSN": [
+   "0319-5724",
+   "1708-945X"
+  ],
+  "URL": "https://doi.org/10.1002/cjs.11749",
+  "alternative-id": [
+   "10.1002/cjs.11749"
+  ],
+  "archive": [
+   "Portico"
+  ],
+  "assertion": [
+   {
+    "group": {
+     "label": "Publication History",
+     "name": "publication_history"
+    },
+    "label": "Received",
+    "name": "received",
+    "order": 0,
+    "value": "2022-04-04"
+   },
+   {
+    "group": {
+     "label": "Publication History",
+     "name": "publication_history"
+    },
+    "label": "Accepted",
+    "name": "accepted",
+    "order": 1,
+    "value": "2022-06-12"
+   },
+   {
+    "group": {
+     "label": "Publication History",
+     "name": "publication_history"
+    },
+    "label": "Published",
+    "name": "published",
+    "order": 2,
+    "value": "2022-12-09"
+   }
+  ],
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Department of Economics and Statistics University of Udine Italy"
+     }
+    ],
+    "family": "Pace",
+    "given": "Luigi",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistical Sciences University of Padova Italy"
+     }
+    ],
+    "family": "Salvan",
+    "given": "Alessandra",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3063-8385",
+    "affiliation": [
+     {
+      "name": "Department of Statistical Sciences University of Padova Italy"
+     }
+    ],
+    "authenticated-orcid": false,
+    "family": "Sartori",
+    "given": "Nicola",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Canadian Journal of Statistics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": true,
+   "domain": [
+    "onlinelibrary.wiley.com"
+   ]
+  },
+  "created": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     9
+    ]
+   ],
+   "date-time": "2022-12-09T11:44:55Z",
+   "timestamp": 1670586295000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     10
+    ]
+   ],
+   "date-time": "2024-10-10T04:10:19Z",
+   "timestamp": 1728533419000
+  },
+  "funder": [
+   {
+    "DOI": "10.13039/501100003500",
+    "award": [
+     "BIRD203991"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "BIRD203991"
+      ]
+     }
+    ],
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "asserted-by": "publisher",
+      "id": "10.13039/501100003500",
+      "id-type": "DOI"
+     }
+    ],
+    "name": "Università degli Studi di Padova"
+   }
+  ],
+  "indexed": {
+   "date-parts": [
+    [
+     2025,
+     5,
+     13
+    ]
+   ],
+   "date-time": "2025-05-13T14:43:54Z",
+   "timestamp": 1747147434660,
+   "version": "3.40.5"
+  },
+  "is-referenced-by-count": 0,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0319-5724"
+   },
+   {
+    "type": "electronic",
+    "value": "1708-945X"
+   }
+  ],
+  "issue": "3",
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     9
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      9
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "license": [
+   {
+    "URL": "http://creativecommons.org/licenses/by/4.0/",
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "start": {
+     "date-parts": [
+      [
+       2022,
+       12,
+       9
+      ]
+     ],
+     "date-time": "2022-12-09T00:00:00Z",
+     "timestamp": 1670544000000
+    }
+   }
+  ],
+  "link": [
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/cjs.11749",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/cjs.11749",
+    "content-type": "application/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/cjs.11749",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "311",
+  "original-title": [],
+  "page": "877-896",
+  "prefix": "10.1002",
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     9
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     9
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2023,
+     9
+    ]
+   ]
+  },
+  "publisher": "Wiley",
+  "reference-count": 29,
+  "references-count": 29,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1002/cjs.11749"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Can J Statistics"
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Confidence sequences with composite likelihoods"
+  ],
+  "type": "journal-article",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "volume": "51"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

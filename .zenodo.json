@@ -1,0 +1,179 @@
+{
+  "title": "The recomputed split likelihood-ratio interval is not a confidence sequence",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>Unrefereed research candidate.</strong> In one sentence: a statistics method that is valid if you look once silently fails if you keep checking it as data arrive. Universal inference (Wasserman, Ramdas and Balakrishnan, 2020) gives split likelihood-ratio confidence sets that are valid at one fixed sample size in almost any model. Pace, Salvan and Sartori (Canadian Journal of Statistics, 2023, Section 3) conjectured that the same sets, recomputed after every new pair of observations with the same threshold, keep asymptotic persistence at least 1&minus;&epsilon;. This paper shows the conjecture is false: a Hewitt&ndash;Savage zero&ndash;one argument gives asymptotic persistence 0 in every model with a permutation-symmetric training estimator; in the Gaussian two-stream scheme the log split likelihood ratio is an exact quadratic form in two random walks with limsup/log log n = (&radic;5&minus;1)/2 almost surely, and the same constant holds in every regular model satisfying the information identity; unequal splits give (&radic;(r&sup2;+4r)&minus;r)/2 and fixed-K cross-fitting gives c(1/(K&minus;1)) or 1/K depending on the aggregation rule. A threshold change gives a genuine confidence sequence, sharp on the iterated-logarithm scale (kappa &gt; 3), and a model-free checkpoint repair is given. An exact Ornstein&ndash;Uhlenbeck representation quantifies finite-horizon severity: at nominal 80% the error first exceeds nominal at about 100 times the first look, at 95% at about 10<sup>4</sup> times and at 99% at about 10<sup>9</sup> times. Pace et al.'s Gaussian tables are reproduced. The law of the iterated logarithm, the zero&ndash;one law, Ville's inequality and stitching are classical; the constants, aggregation classification, sharp repair transfer and severity calculation are the proposed contribution.</p><p>The archive contains the manuscript (PDF, Markdown source, template and generated LaTeX), the bibliography, seven certificate scripts with retained outputs (exact symbolic algebra, universality expansions, seeded Monte Carlo and an OU spectral solver), negative controls, quick and full replay scripts, CI and SHA-256 sums. Assurance: written proofs and computational checks; internal AI-assisted review only (not peer review, independent reproduction or formal verification). Creator: Anonymous. Text, data and diagrams CC0-1.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-zero",
+  "version": "0.1.0-candidate",
+  "publication_date": "2026-11-01",
+  "keywords": [
+    "universal inference",
+    "split likelihood ratio",
+    "confidence sequences",
+    "anytime-valid inference",
+    "law of the iterated logarithm",
+    "e-values",
+    "sequential analysis",
+    "optional stopping"
+  ],
+  "notes": "Code (all .py and .sh files and the CI workflow) is MIT; prose, manuscript, figures and data are CC0-1.0.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/split-likelihood-persistence/tree/v0.1.0-candidate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://evidencepress.org/releases/split-likelihood-persistence/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.2307/2343787",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/aop/1176995146",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1073/pnas.57.5.1188",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1093/biomet/asac064",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.2307/1968801",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1090/s0002-9947-1943-0009263-7",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.2307/2371287",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1090/s0002-9947-1955-0076206-8",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/20-aos1991",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/aop/1176995982",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/aos/1176343406",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/bf02883984",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1111/insr.12355",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1002/cjs.11749",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1093/biomet/64.2.191",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1561/3600000002",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/aoms/1177696786",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/aoms/1177696787",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/bf00534910",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/22-ejs2099",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1002/sta4.501",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/20-aos2020",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1073/pnas.1922664117",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/24-aos2408",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "arXiv:2606.28324",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2609.20496",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2009.00848",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2410.23614",
+      "relation": "references",
+      "scheme": "arxiv"
+    }
+  ],
+  "doi": "10.5281/zenodo.23856728"
+}

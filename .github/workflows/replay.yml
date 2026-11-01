@@ -1,0 +1,57 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+jobs:
+  quick:
+    name: Quick checks (blocking)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check SHA256SUMS
+        run: sha256sum -c SHA256SUMS
+      - name: Install pinned packages
+        run: python -m pip install -r requirements.txt
+      - name: Exact algebra, universality expansion, looks and mixture controls (-I -B -O), outputs compared
+        run: |
+          mkdir -p "$RUNNER_TEMP/quick"
+          python -I -B -O code/algebra_checks.py "$RUNNER_TEMP/quick"
+          python -I -B -O code/universality_checks.py "$RUNNER_TEMP/quick"
+          python -I -B -O code/looks_and_mixture_controls.py "$RUNNER_TEMP/quick"
+          python -I -B tools/ci_compare.py "$RUNNER_TEMP/quick" results algebra_checks.json universality_checks.json looks_and_mixture_controls.json
+      - name: Manuscript tables regenerate from the shipped results
+        run: |
+          python -I -B code/fill_tables.py results manuscript_template.md "$RUNNER_TEMP/manuscript.md" references.md
+          cmp "$RUNNER_TEMP/manuscript.md" manuscript.md
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"
+  full:
+    name: Full suite (non-blocking, about 40 CPU-minutes)
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned packages
+        run: python -m pip install -r requirements.txt
+      - name: Every certificate script (-I -B -O), outputs compared
+        env:
+          OMP_NUM_THREADS: "1"
+          OPENBLAS_NUM_THREADS: "1"
+        run: |
+          O="$RUNNER_TEMP/full"; mkdir -p "$O"
+          python -I -B -O code/algebra_checks.py "$O"
+          python -I -B -O code/universality_checks.py "$O"
+          python -I -B -O code/looks_and_mixture_controls.py "$O"
+          python -I -B -O code/finite_horizon_mc.py "$O" 1
+          python -I -B -O code/repair_efficiency.py "$O" 4000 100000
+          python -I -B -O code/ou_spectral.py "$O" 0.08
+          python -I -B tools/ci_compare.py "$O" results algebra_checks.json universality_checks.json looks_and_mixture_controls.json finite_horizon_mc.json repair_efficiency.json ou_spectral.json

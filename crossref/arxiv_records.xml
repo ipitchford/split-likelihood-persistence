@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4zWlld5Lejyskt9wjzn50t1ASz8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2606.28324,2609.20496,2009.00848,2410.23614&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-01T10:40:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2606.28324,2609.20496,2009.00848,2410.23614" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.20496v1</id>
+    <title>Efficient computation of mixture confidence sequences in generalized linear models</title>
+    <updated>2026-09-17T14:44:20Z</updated>
+    <link href="https://arxiv.org/abs/2609.20496v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.20496v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical confidence intervals, when repeatedly obtained on accumulating data at different sample sizes, produce contradictory inferences with high probability. We propose a simple and efficient strategy for computing, instead, mixture confidence sequences for regression coefficients in generalized linear models under this sequential framework. Simulations demonstrate the computational convenience of our approach and the importance of drawing inferential conclusions based on these anytime-valid tools when observations become available in batches over time. The usefulness of the proposed procedure is also shown in the analysis of streaming data from the American National Automotive Sampling System.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T14:44:20Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Claudia Di Caterina</name>
+    </author>
+    <author>
+      <name>Luigi Pace</name>
+    </author>
+    <author>
+      <name>Alessandra Salvan</name>
+    </author>
+    <author>
+      <name>Nicola Sartori</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.00848v4</id>
+    <title>Universal Inference with Composite Likelihoods</title>
+    <updated>2020-09-23T05:42:25Z</updated>
+    <link href="https://arxiv.org/abs/2009.00848v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.00848v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wasserman et al. (2020, PNAS, vol. 117, pp. 16880-16890) constructed estimator agnostic and finite-sample valid confidence sets and hypothesis tests, using split-data likelihood ratio-based statistics. We demonstrate that the same approach extends to the use of split-data composite likelihood ratios as well, and thus establish universal methods for conducting multivariate inference when the data generating process is only known up to marginal and conditional relationships between the coordinates. Always-valid sequential inference is also considered.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-02T06:53:53Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Hien Duy Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.23614v6</id>
+    <title>Hypothesis testing with e-values</title>
+    <updated>2025-09-10T15:14:38Z</updated>
+    <link href="https://arxiv.org/abs/2410.23614v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.23614v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This book is written to offer a humble, but unified, treatment of e-values in hypothesis testing. It is organized into three parts: Fundamental Concepts, Core Ideas, and Advanced Topics. The first part includes four chapters that introduce the basic concepts. The second part includes five chapters of core ideas such as universal inference, log-optimality, e-processes, operations on e-values, and e-values in multiple testing. The third part contains seven chapters of advanced topics. The book collates important results from a variety of modern papers on e-values and related concepts, and also contains many results not published elsewhere. It offers a coherent and comprehensive picture on a fast-growing research area, and is ready to use as the basis of a graduate course in statistics and related fields.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-31T03:56:15Z</published>
+    <arxiv:comment>Published in: Foundations and Trends in Statistics, Vol. 1: No. 1-2, pp 1-390</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Aaditya Ramdas</name>
+    </author>
+    <author>
+      <name>Ruodu Wang</name>
+    </author>
+    <arxiv:doi>10.1561/3600000002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1561/3600000002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.28324v2</id>
+    <title>The multiply iterated law of the iterated logarithm: game-theoretic foundations of sequential detection boundaries</title>
+    <updated>2026-06-29T17:58:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.28324v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.28324v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Anytime-valid confidence sequences and e-processes are built almost universally from one recipe: average exponential test statistics over a prior on the tilting scale, then invoke Ville's inequality on the resulting nonnegative supermartingale. The mixing prior sets the width of the detection boundary and is usually chosen by hand. We recast the recipe as a two-player game with information as currency. A Learner commits to the prior; Nature adaptively produces a mean-zero score process whose difficulty is priced by a cumulant-generating-function charge. The Learner's mixture wealth obeys a single pathwise Gibbs-variational identity that holds along every realized path with no expectation operator; Ville's inequality, the equalizer condition, the GROW characterization, and the saddlepoint formula are all specializations of it. Three messages organize the rest. First, the law of the iterated logarithm (LIL) is the minimax boundary of this sequential-detection game, not arbitrary combinatorial slack. Second, the optimal prior is not a design choice but the forced equalizer strategy -- the unique law that makes every boundary-crossing time equally costly for Nature -- and it yields the sharp first iterated-log correction in closed form, with coefficient 3/2 = 1 + 1/2 (one for the Erdős baseline, one half for the Laplace envelope around the saddle). Third, in the log-log scale chart the equalizer is exactly the Jeffreys prior on the scale-of-scales. The Erdős-Kolmogorov integral test is the criterion that selects it. The two-stage finite-time LIL proof, the Howard-Ramdas mixture and stitching constructions, and betting confidence sequences all read as instances of this equalizer principle. A companion empirical evaluation confirms the central identities and locates the Erdős threshold at the predicted value.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-26T17:59:58Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Akshay Balsubramani</name>
+    </author>
+  </entry>
+</feed>

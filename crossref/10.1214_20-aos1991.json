@@ -1,0 +1,197 @@
+{
+ "message": {
+  "DOI": "10.1214/20-aos1991",
+  "ISSN": [
+   "0090-5364",
+   "2168-8966"
+  ],
+  "URL": "https://doi.org/10.1214/20-aos1991",
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistics, University of California, Berkeley"
+     }
+    ],
+    "family": "Howard",
+    "given": "Steven R.",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Departments of Statistics and Machine Learning, Carnegie Mellon University"
+     }
+    ],
+    "family": "Ramdas",
+    "given": "Aaditya",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistics, University of California, Berkeley"
+     }
+    ],
+    "family": "McAuliffe",
+    "given": "Jon",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "Department of Statistics and Data Science, Yale University"
+     }
+    ],
+    "family": "Sekhon",
+    "given": "Jasjeet",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "The Annals of Statistics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2021,
+     4,
+     2
+    ]
+   ],
+   "date-time": "2021-04-02T15:34:36Z",
+   "timestamp": 1617377676000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     7
+    ]
+   ],
+   "date-time": "2026-10-07T20:35:41Z",
+   "timestamp": 1791405341000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     31
+    ]
+   ],
+   "date-time": "2026-10-31T14:58:48Z",
+   "timestamp": 1793458728053,
+   "version": "4.5.0"
+  },
+  "is-referenced-by-count": 134,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0090-5364"
+   },
+   {
+    "type": "electronic",
+    "value": "2168-8966"
+   }
+  ],
+  "issue": "2",
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     4,
+     1
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "2",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      4,
+      1
+     ]
+    ]
+   }
+  },
+  "member": "108",
+  "original-title": [],
+  "page": "1055-1080",
+  "prefix": "10.1214",
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     4,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     2021,
+     4,
+     1
+    ]
+   ]
+  },
+  "publisher": "Institute of Mathematical Statistics",
+  "reference-count": 77,
+  "references-count": 77,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-49/issue-2/Time-uniform-nonparametric-nonasymptotic-confidence-sequences/10.1214/20-AOS1991.full"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Ann. Statist."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "Time-uniform, nonparametric, nonasymptotic confidence sequences"
+  ],
+  "type": "journal-article",
+  "volume": "49"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

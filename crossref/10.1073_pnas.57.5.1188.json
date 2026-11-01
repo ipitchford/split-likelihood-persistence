@@ -1,0 +1,196 @@
+{
+ "message": {
+  "DOI": "10.1073/pnas.57.5.1188",
+  "ISSN": [
+   "0027-8424",
+   "1091-6490"
+  ],
+  "URL": "https://doi.org/10.1073/pnas.57.5.1188",
+  "alternative-id": [
+   "10.1073/pnas.57.5.1188"
+  ],
+  "assertion": [
+   {
+    "group": {
+     "label": "Publication History",
+     "name": "publication_history"
+    },
+    "label": "Published",
+    "name": "published",
+    "order": 2,
+    "value": "1967-05-01"
+   }
+  ],
+  "author": [
+   {
+    "affiliation": [
+     {
+      "name": "UNIVERSITY OF CALIFORNIA, BERKELEY"
+     }
+    ],
+    "family": "Darling",
+    "given": "D. A.",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [
+     {
+      "name": "UNIVERSITY OF CALIFORNIA, BERKELEY"
+     }
+    ],
+    "family": "Robbins",
+    "given": "Herbert",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "Proceedings of the National Academy of Sciences"
+  ],
+  "content-domain": {
+   "crossmark-restriction": true,
+   "domain": [
+    "www.pnas.org"
+   ]
+  },
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     5,
+     31
+    ]
+   ],
+   "date-time": "2006-05-31T01:53:18Z",
+   "timestamp": 1149040398000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     4,
+     13
+    ]
+   ],
+   "date-time": "2022-04-13T10:07:13Z",
+   "timestamp": 1649844433000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     29
+    ]
+   ],
+   "date-time": "2026-09-29T15:30:32Z",
+   "timestamp": 1790695832351,
+   "version": "4.1.0"
+  },
+  "is-referenced-by-count": 35,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0027-8424"
+   },
+   {
+    "type": "electronic",
+    "value": "1091-6490"
+   }
+  ],
+  "issue": "5",
+  "issued": {
+   "date-parts": [
+    [
+     1967,
+     5
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "5",
+   "published-print": {
+    "date-parts": [
+     [
+      1967,
+      5
+     ]
+    ]
+   }
+  },
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://pnas.org/doi/pdf/10.1073/pnas.57.5.1188",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "341",
+  "original-title": [],
+  "page": "1188-1192",
+  "prefix": "10.1073",
+  "published": {
+   "date-parts": [
+    [
+     1967,
+     5
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     1967,
+     5
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     1967,
+     5
+    ]
+   ]
+  },
+  "publisher": "National Academy of Sciences",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://pnas.org/doi/full/10.1073/pnas.57.5.1188"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Proc. Natl. Acad. Sci. U.S.A."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "ITERATED LOGARITHM INEQUALITIES"
+  ],
+  "type": "journal-article",
+  "update-policy": "https://doi.org/10.1073/pnas.cm10313",
+  "volume": "57"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

@@ -1,0 +1,8 @@
+Replay environment used for the release replay (1 November 2026)
+
+- macOS (Apple silicon), CPython 3.12.11
+- numpy 2.1.3, scipy 1.14.1, sympy 1.13.3, mpmath 1.3.0 (requirements.txt)
+- OMP_NUM_THREADS=1, OPENBLAS_NUM_THREADS=1; single CPU reserved
+- Commands: python -I -B -O code/<script>.py <outdir> [args as in build.sh]; python -I -B code/compare_results.py <outdir> results <names>; python -I -B code/fill_tables.py <outdir> manuscript_template.md <out.md> references.md
+- PDF build: pandoc + XeLaTeX + xdvipdfmx (TinyTeX), bash build_pdf.sh
+- CI: GitHub Actions ubuntu-latest, Python 3.12, same pinned packages (.github/workflows/replay.yml): quick checks blocking, full suite non-blocking; cross-platform comparison by tools/ci_compare.py (relative tolerance 1e-6)

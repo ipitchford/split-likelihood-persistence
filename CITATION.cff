@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research candidate by its DOI."
+title: "The recomputed split likelihood-ratio interval is not a confidence sequence"
+type: software
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+doi: 10.5281/zenodo.23856728
+date-released: 2026-11-01
+repository-code: "https://github.com/ipitchford/split-likelihood-persistence"
+url: "https://evidencepress.org/releases/split-likelihood-persistence/"
+license:
+  - CC0-1.0
+  - MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23856728
+    description: "Version DOI (0.1.0-candidate)"
+  - type: doi
+    value: 10.5281/zenodo.23856727
+    description: "Concept DOI (all versions)"
+keywords:
+  - universal inference
+  - split likelihood ratio
+  - confidence sequences
+  - anytime-valid inference
+  - law of the iterated logarithm
+  - e-values
+abstract: "Split likelihood-ratio (universal inference) confidence sets are valid at a fixed sample size. Pace, Salvan and Sartori (2023) conjectured that, recomputed after every new pair of observations with the same threshold, they keep asymptotic persistence 1 - epsilon. This package proves the conjecture false: asymptotic persistence is 0 in every model (zero-one law); the log split likelihood ratio has limsup/log log n = (sqrt5-1)/2 in regular models; split fractions and cross-fitting give c(r) and 1/K; a threshold repair is sharp on the iterated-logarithm scale and a checkpoint repair works in any model; an exact Ornstein-Uhlenbeck representation quantifies finite-horizon severity. Unrefereed candidate; internal AI-assisted review only. Text, data and diagrams CC0-1.0; code MIT."

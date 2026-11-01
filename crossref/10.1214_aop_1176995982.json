@@ -1,0 +1,153 @@
+{
+ "message": {
+  "DOI": "10.1214/aop/1176995982",
+  "ISSN": [
+   "0091-1798",
+   "2168-894X"
+  ],
+  "URL": "https://doi.org/10.1214/aop/1176995982",
+  "author": [
+   {
+    "affiliation": [],
+    "family": "Kuelbs",
+    "given": "J.",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   }
+  ],
+  "container-title": [
+   "The Annals of Probability"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     17
+    ]
+   ],
+   "date-time": "2007-12-17T12:45:42Z",
+   "timestamp": 1197895542000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     16
+    ]
+   ],
+   "date-time": "2026-10-16T20:11:37Z",
+   "timestamp": 1792181497000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     16
+    ]
+   ],
+   "date-time": "2026-10-16T20:47:31Z",
+   "timestamp": 1792183651650,
+   "version": "4.4.0"
+  },
+  "is-referenced-by-count": 76,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0091-1798"
+   },
+   {
+    "type": "electronic",
+    "value": "2168-894X"
+   }
+  ],
+  "issue": "5",
+  "issued": {
+   "date-parts": [
+    [
+     1976,
+     10,
+     1
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "5",
+   "published-online": {
+    "date-parts": [
+     [
+      1976,
+      10,
+      1
+     ]
+    ]
+   }
+  },
+  "link": [
+   {
+    "URL": "http://projecteuclid.org/download/pdf_1/euclid.aop/1176995982",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "member": "108",
+  "original-title": [],
+  "page": "744-771",
+  "prefix": "10.1214",
+  "published": {
+   "date-parts": [
+    [
+     1976,
+     10,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     1976,
+     10,
+     1
+    ]
+   ]
+  },
+  "publisher": "Institute of Mathematical Statistics",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://projecteuclid.org/journals/annals-of-probability/volume-4/issue-5/A-Strong-Convergence-Theorem-for-Banach-Space-Valued-Random-Variables/10.1214/aop/1176995982.full"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "Ann. Probab."
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "A Strong Convergence Theorem for Banach Space Valued Random Variables"
+  ],
+  "type": "journal-article",
+  "volume": "4"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

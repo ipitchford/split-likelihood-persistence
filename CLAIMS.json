@@ -1,0 +1,107 @@
+{
+ "schemaVersion": "1.0",
+ "release": "split-likelihood-persistence",
+ "version": "0.1.0-candidate",
+ "doi": "10.5281/zenodo.23856728",
+ "conceptDoi": "10.5281/zenodo.23856727",
+ "creator": "Anonymous",
+ "status": "unrefereed candidate",
+ "model": "Universal-inference split likelihood ratio E_n(theta) = prod over validation observations of p_{theta_hat_n}(X_i)/p_theta(X_i), with theta_hat_n fitted on a separate training stream, recomputed after every new pair of observations, with the fixed-threshold set C_n = {theta: log E_n(theta) < log(1/epsilon)} (the split-naive sequence of Pace, Salvan and Sartori, 2023, Section 3).",
+ "definitions": {
+  "asymptotic persistence": "lim_n P(theta in C_m for every m >= n)",
+  "Q_n": "log E_n(theta) at the true parameter",
+  "lambda_1": "(sqrt5 - 1)/4, the positive eigenvalue of A = [[0, 1/2], [1/2, -1/2]]",
+  "c(r)": "(sqrt(r^2 + 4r) - r)/2"
+ },
+ "claims": [
+  {
+   "id": "C0",
+   "kind": "proposition",
+   "location": "Proposition 0, Section 2",
+   "statement": "In any model, with any permutation-symmetric training estimator, the split-naive sequence of Pace et al. (recomputed split likelihood-ratio set with fixed threshold log(1/epsilon)) has asymptotic persistence 0 whenever its single-time non-coverage does not tend to zero. Hence the conjecture of Pace, Salvan and Sartori (2023, Section 3) is false.",
+   "scope": "Their equation (6), definition (1.1) of asymptotic persistence and two-stream sampling scheme; Hewitt-Savage zero-one law.",
+   "evidence": "written proof in split_likelihood_persistence.pdf"
+  },
+  {
+   "id": "C1",
+   "kind": "theorem",
+   "location": "Theorem 1, Section 3",
+   "statement": "Gaussian two-stream scheme with known variance and training mean: Q_n = log E_n(theta) = (S_n T_n - T_n^2/2)/n exactly; limsup Q_n / log log n = (sqrt5 - 1)/2 and liminf = -(sqrt5 + 1)/2 almost surely; for every epsilon and n_0 the persistence from n_0 is 0, and the tail intersection of the sets is empty almost surely.",
+   "scope": "N(theta, sigma^2), sigma known.",
+   "evidence": "written proof in split_likelihood_persistence.pdf; script checks listed in VERIFICATION.md"
+  },
+  {
+   "id": "C2",
+   "kind": "theorem",
+   "location": "Theorem 2, Section 4",
+   "statement": "Under regularity conditions (R1)-(R3), limsup log E_n(theta_0) / log log n = ((sqrt5 - 1)/2) mu_max(H^-1 J) almost surely; under correct specification (R4, J = H) the constant is (sqrt5 - 1)/2 in every fixed dimension.",
+   "scope": "Regular parametric models of fixed dimension; working likelihoods covered by the sandwich constant.",
+   "evidence": "written proof in split_likelihood_persistence.pdf; script checks listed in VERIFICATION.md"
+  },
+  {
+   "id": "C3",
+   "kind": "theorem",
+   "location": "Theorem 3, Section 5",
+   "statement": "A fixed validation-to-training ratio r gives the constant c(r) = (sqrt(r^2 + 4r) - r)/2 in (0, 1); no fixed split fraction restores (1.1).",
+   "scope": "Gaussian model and every model satisfying (R1)-(R4).",
+   "evidence": "written proof in split_likelihood_persistence.pdf; script checks listed in VERIFICATION.md"
+  },
+  {
+   "id": "C4",
+   "kind": "theorem",
+   "location": "Theorem 4, Section 5",
+   "statement": "Fixed-K cross-fitting: weighted power means with p > 0 give c(1/(K-1)); the weighted geometric mean gives 2 lambda_max(sum_j w_j A_j), equal to 1/K for equal weights; p < 0 and the minimum give 1/K; every symmetric e-merging function has constant at most c(1/(K-1)), and any e-merging function dominating a positive multiple of the minimum has constant at least 1/K, hence zero persistence.",
+   "scope": "Fixed number of folds with a fixed assignment; the trivial merging function F = 1 has persistence 1 and no power.",
+   "evidence": "written proof in split_likelihood_persistence.pdf; script checks listed in VERIFICATION.md"
+  },
+  {
+   "id": "C5",
+   "kind": "theorem",
+   "location": "Theorem 5, Section 6",
+   "statement": "If g is a valid boundary for a scalar standard Gaussian random walk at level alpha, the threshold b(n) = lambda_1 g(n)^2 / n with lambda_1 = (sqrt5 - 1)/4 gives a (1 - alpha) confidence sequence from the split statistic.",
+   "scope": "Gaussian two-stream scheme, or data whose standardised increments are jointly conditionally sub-Gaussian with the Gaussian working likelihood.",
+   "evidence": "written proof in split_likelihood_persistence.pdf; script checks listed in VERIFICATION.md"
+  },
+  {
+   "id": "C6",
+   "kind": "theorem",
+   "location": "Theorem 6, Section 6",
+   "statement": "Thresholds lambda_1{2 log log n + kappa log log log n + O(1)} give a valid confidence sequence at some level below 1 if and only if kappa > 3.",
+   "scope": "Gaussian two-stream scheme.",
+   "evidence": "written proof in split_likelihood_persistence.pdf"
+  },
+  {
+   "id": "C7",
+   "kind": "proposition",
+   "location": "Proposition 5A, Section 6",
+   "statement": "Checkpoint repair: with checkpoints n_k and weights w_k summing to at most 1, the set built from the fixed-n e-value at the last checkpoint with threshold 1/(alpha w_k) is a (1 - alpha) confidence sequence in every model.",
+   "scope": "Any model with fixed-n e-values; dominated by the Ramdas-Wang time-mixture e-process.",
+   "evidence": "written proof in split_likelihood_persistence.pdf; script checks listed in VERIFICATION.md"
+  },
+  {
+   "id": "C8",
+   "kind": "proposition",
+   "location": "Proposition 7, Section 7.1",
+   "statement": "The finite-horizon uncoverage over n_min <= n <= R n_min converges, as n_min grows, to the probability that a stationary two-dimensional Ornstein-Uhlenbeck quadratic form exceeds log(1/epsilon) within time log R.",
+   "scope": "Gaussian scheme; the limit depends only on the horizon ratio R.",
+   "evidence": "written proof in split_likelihood_persistence.pdf; script checks listed in VERIFICATION.md"
+  }
+ ],
+ "computedNotProved": [
+  "OU failure exponents 0.0421 (80%), 0.01496 (90%), 0.0054 (95%), 0.0005 (99%) and finite-horizon uncoverages (Table 1)",
+  "horizon ratios at which uncoverage first exceeds epsilon: about 105 (80%), 10^2.8 (90%), 10^3.9 (95%), 10^8.8 (99%, power-law extrapolation)",
+  "horizon-calibrated thresholds c*(epsilon, R) (Table 3, estimated error about +-0.005)",
+  "Monte Carlo reproductions of Pace et al. Tables 2-3 and their Poisson example",
+  "finite-looks table (Table 4) and efficiency comparison (Table 5)"
+ ],
+ "notClaimed": [
+  "any failure of fixed-n universal inference",
+  "any failure of the running-MLE (split-exact) confidence sequence or of Pace et al. mixture sequences",
+  "Pace et al. Section 6 conjecture",
+  "rate constants for irregular models",
+  "growing-K or re-randomised cross-fitting",
+  "a plug-in sandwich repair for composite likelihoods",
+  "the source of the Poisson discrepancy with Pace et al. Table 5"
+ ],
+ "assurance": "Written proofs; exact symbolic, seeded Monte Carlo and numerical checks with negative controls; internal AI-assisted review only; not peer-reviewed, independently reproduced or formally verified."
+}

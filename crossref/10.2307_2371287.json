@@ -1,0 +1,148 @@
+{
+ "message": {
+  "DOI": "10.2307/2371287",
+  "ISSN": [
+   "0002-9327"
+  ],
+  "URL": "https://doi.org/10.2307/2371287",
+  "author": [
+   {
+    "affiliation": [],
+    "family": "Hartman",
+    "given": "Philip",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "first"
+   },
+   {
+    "affiliation": [],
+    "family": "Wintner",
+    "given": "Aurel",
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ],
+    "sequence": "additional"
+   }
+  ],
+  "container-title": [
+   "American Journal of Mathematics"
+  ],
+  "content-domain": {
+   "crossmark-restriction": false,
+   "domain": []
+  },
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     7,
+     20
+    ]
+   ],
+   "date-time": "2006-07-20T17:50:38Z",
+   "timestamp": 1153417838000
+  },
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     5,
+     9
+    ]
+   ],
+   "date-time": "2018-05-09T13:55:37Z",
+   "timestamp": 1525874137000
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     13
+    ]
+   ],
+   "date-time": "2026-10-13T13:14:50Z",
+   "timestamp": 1791897290178,
+   "version": "4.3.4"
+  },
+  "is-referenced-by-count": 224,
+  "issn-type": [
+   {
+    "type": "print",
+    "value": "0002-9327"
+   }
+  ],
+  "issue": "1",
+  "issued": {
+   "date-parts": [
+    [
+     1941,
+     1
+    ]
+   ]
+  },
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      1941,
+      1
+     ]
+    ]
+   }
+  },
+  "member": "1121",
+  "original-title": [],
+  "page": "169",
+  "prefix": "10.2307",
+  "published": {
+   "date-parts": [
+    [
+     1941,
+     1
+    ]
+   ]
+  },
+  "published-print": {
+   "date-parts": [
+    [
+     1941,
+     1
+    ]
+   ]
+  },
+  "publisher": "JSTOR",
+  "reference-count": 0,
+  "references-count": 0,
+  "relation": {},
+  "resource": {
+   "primary": {
+    "URL": "https://www.jstor.org/stable/2371287?origin=crossref"
+   }
+  },
+  "score": 1,
+  "short-container-title": [
+   "American Journal of Mathematics"
+  ],
+  "short-title": [],
+  "source": "Crossref",
+  "subject": [],
+  "subtitle": [],
+  "title": [
+   "On the Law of the Iterated Logarithm"
+  ],
+  "type": "journal-article",
+  "volume": "63"
+ },
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "status": "ok"
+}

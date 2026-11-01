@@ -1,0 +1,18 @@
+\usepackage{microtype}
+\usepackage{xurl}
+\usepackage{xcolor}
+\definecolor{paperlink}{HTML}{5C596D}
+\AtBeginDocument{\hypersetup{urlcolor=paperlink,linkcolor=paperlink}}
+\setlength{\emergencystretch}{3em}
+\setlength{\parskip}{5pt}
+\setlength{\parindent}{0pt}
+\linespread{1.05}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Split likelihood-ratio intervals under repeated checking}
+\fancyhead[R]{\small Evidence Press research release}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{15pt}
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\footnotesize}
